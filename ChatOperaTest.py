@@ -1,4 +1,7 @@
 import efaqa_corpus_zh
+#import sys
+#import io
+#sys.stdout = io.TextIOWrapper(buffer=sys.stdout.buffer,encoding='utf-8')
 
 # data is a dictionary
 # Keys: owner, title, label, chats
